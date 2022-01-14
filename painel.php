@@ -3,7 +3,7 @@ session_start();
 include('verifica_login.php');
 ?>
 <h2>Olá, Gm  <?php echo $_SESSION['usuario'];?></h2>
-?>
+
 <!DOCTYPE html>
 <html lang="pt">
 <head>
