@@ -26,7 +26,7 @@
                         <form action="login.php" method="POST">
                             <div class="field">
                                 <div class="control">
-                                    <input name="usuário" name="text" class="input is-large" placeholder="Nome de Guerra" autofocus="">
+                                    <input name="usuario" name="text" class="input is-large" placeholder="Nome de Guerra" autofocus="">
                                 </div>
                             </div>
 
