@@ -25,7 +25,6 @@ session_start();
                     <?php
                     if(isset($_SESSION['nao_autenticado'])): 
                     ?>
-
                     <div class="notification is-danger">
                         <p>Erro: Usuário ou senha inválidos.</p>
                     </div>
@@ -33,8 +32,6 @@ session_start();
                         endif;
                         unset($_SESSION['nao_autenticado']);
                     ?>
-
-
                     <div class="box">
                         <form action="login.php" method="POST">
                             <div class="field">
