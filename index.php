@@ -29,8 +29,8 @@ session_start();
                         <p>Erro: Usuário ou senha inválidos.</p>
                     </div>
                     <?php
-                        endif;
-                        unset($_SESSION['nao_autenticado']);
+                    endif;
+                    unset($_SESSION['nao_autenticado']);
                     ?>
                     <div class="box">
                         <form action="login.php" method="POST">
